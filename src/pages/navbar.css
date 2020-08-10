@@ -1,0 +1,45 @@
+header{
+    margin: 10px;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+header .logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+
+     
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+
+}
+nav ul li{
+   
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #556;
+    padding: 0 15px;
+    
+    
+
+
+}
+nav ul li a:hover{
+    color: lightcoral;
+    text-decoration: none;
+    
+}
